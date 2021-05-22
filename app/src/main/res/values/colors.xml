@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FBE416</color>
+    <color name="colorPrimaryDark">#040000</color>
+    <color name="actionBarText">#FBF67B</color>
+    <color name="background">#FAF10B</color>
+
+
+</resources>
