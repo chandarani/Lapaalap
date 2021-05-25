@@ -7,17 +7,63 @@
     android:background="#FAF10B"
     tools:context=".SplashActivity">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="566dp"
-        android:layout_height="409dp"
-        android:background="#FAF10B"
-        android:contentDescription="logo"
+    <TextView
+        android:id="@+id/textEat"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cookie"
+        android:text="Eat  Sleep  Pizza  Repeat"
+        android:textAlignment="center"
+        android:textColor="#040000"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.406"
-        app:srcCompat="@mipmap/ic_icon_foreground" />
+        app:layout_constraintVertical_bias="0.867" />
+
+    <TextView
+        android:id="@+id/textLaplp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/assistant_extrabold"
+        android:text="lapaalap"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.415" />
+
+    <TextView
+        android:id="@+id/textBaked"
+        android:layout_width="370dp"
+        android:layout_height="42dp"
+        android:fontFamily="@font/leckerli_one"
+        android:text="baked with love"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textEat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textLaplp"
+        app:layout_constraintVertical_bias="0.05" />
+
+    <ImageView
+        android:id="@+id/imageSpoon"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        app:layout_constraintBottom_toTopOf="@+id/textEat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="@+id/textBaked"
+        app:layout_constraintTop_toBottomOf="@+id/textLaplp"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@mipmap/ic_knife" />
 </androidx.constraintlayout.widget.ConstraintLayout>
