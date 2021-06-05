@@ -30,15 +30,15 @@ class MainActivity : AppCompatActivity() ,View.OnClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        burgermenu = CardView.findViewById(R.id.BurgerMenu)
-        pizzamenu = CardView.findViewById(R.id.PizzaMenu)
-        cold_drinkmenu = CardView.findViewById(R.id.ColdDrinkMenu)
-        coffeemenu = CardView.findViewById(R.id.CoffeeMenu)
+        burgermenu = findViewById(R.id.BurgerMenu)
+        pizzamenu = findViewById(R.id.PizzaMenu)
+        cold_drinkmenu = findViewById(R.id.ColdDrinkMenu)
+        coffeemenu = findViewById(R.id.CoffeeMenu)
 
-        burgermenu.setOnClickListener(this)
-        pizzamenu.setOnClickListener(this)
-        cold_drinkmenu.setOnClickListener(this)
-        coffeemenu.setOnClickListener(this)
+        burgermenu?.setOnClickListener(this)
+        pizzamenu?.setOnClickListener(this)
+        cold_drinkmenu?.setOnClickListener(this)
+        coffeemenu?.setOnClickListener(this)
 
     }
 
