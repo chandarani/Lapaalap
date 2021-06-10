@@ -3,4 +3,8 @@
     <string name="title_activity_splash1">FullscreenActivity</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="BurgerD1"><b>Burger Delight</b>
+        <br>
+            <i>this is the description. bla bla ba bla llallallall this is the description. bla bla ba bla llallallall</i></br>
+    </string>
 </resources>
